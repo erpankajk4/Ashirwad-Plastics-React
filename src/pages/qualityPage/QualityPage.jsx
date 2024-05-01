@@ -12,7 +12,8 @@ export default function QualityPage() {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
+        title="Ashirwad Plastics"
+        titleTemplate="Quality"
         description="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
       />
       <LayoutOne>

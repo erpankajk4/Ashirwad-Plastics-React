@@ -10,7 +10,8 @@ export default function ContactPage() {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
+        title="Ashirwad Plastics"
+        titleTemplate="Contact Us"
         description="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
       />
       <LayoutOne>

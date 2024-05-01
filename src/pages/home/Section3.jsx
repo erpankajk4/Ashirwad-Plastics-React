@@ -8,7 +8,7 @@ import { SectionWrapper } from "../../hoc";
 function Section3() {
   return (
     <section className="w-full my-5">
-    <motion.div variants={zoomIn( 0.5, 1)}  className="relative h-max mr-8 flex-center">
+    <motion.div variants={zoomIn( 0.1, 1)}  className="relative h-max mr-8 flex-center">
       <div className="flash-hover w-[80%]">
         <img src={img} className="w-full object-cover" alt="" />
       </div>

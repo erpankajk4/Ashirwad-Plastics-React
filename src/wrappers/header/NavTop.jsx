@@ -3,6 +3,7 @@ import Logo from "../Logo";
 import { FiPhone } from "react-icons/fi";
 import { IoMailOutline, IoHomeOutline } from "react-icons/io5";
 import { MdOutlineLanguage } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export default function NavTop() {
   // const [lan, setLan] = useState("en");
@@ -44,20 +45,20 @@ export default function NavTop() {
         <Logo imageUrl="/assets/img/logo.png" logoClass="logo" />
       </div>
       <div className="flex items-center justify-between gap-10 p-8">
-        <div className="flex items-center gap-2">
+        <Link to="tel:+919569461234" className="flex items-center gap-2">
           <FiPhone className="text-4xl text-primaryColor" />
           <div>
             <p className="text-grey">Call Us 24/7</p>
             <p>+91-9569461234</p>
           </div>
-        </div>
-        <div className="flex items-center gap-2">
+        </Link>
+        <Link to="mailto:info@ashirwadplastics.com" className="flex items-center gap-2">
           <IoMailOutline className="text-4xl text-primaryColor" />
           <div>
             <p className="text-grey">Send Us Mail</p>
             <p>info@ashirwadplastics.com</p>
           </div>
-        </div>
+        </Link>
         <div className="flex items-center gap-2">
           <IoHomeOutline className="text-4xl text-primaryColor" />
           <div>

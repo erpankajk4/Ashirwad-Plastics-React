@@ -260,6 +260,7 @@ body {
 #products {
   .swiper {
     height: 400px;
+    padding: 0 2px;
   }
   .swiper-slide {
     height: max-content !important;
@@ -358,6 +359,7 @@ footer li::before {
   align-items: center;
   border-radius: 0%;
   padding: 3px;
+  margin-top: 6px;
 }
 
 /* Pulse Grow */

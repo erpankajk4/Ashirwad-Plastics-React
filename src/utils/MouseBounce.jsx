@@ -77,7 +77,7 @@ const MouseBounce = () => {
     };
   }, []);
   return (
-    <div className="mouse-circle fixed h-10 w-10 rounded-full border-2 border-indigo-500 top-[-20px] left-[-20px] pointer-events-none z-50"></div>
+    <div className="mouse-circle fixed h-8 w-8 rounded-full bg-primaryColor opacity-50 top-[-10px] border left-[-12px] pointer-events-none z-50"></div>
   );
 };
 

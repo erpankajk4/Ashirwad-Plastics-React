@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import ScrollToTop from "./common/ScrollToTop";
 import Loading from "./common/Loading";
+import MouseBounce from "./utils/MouseBounce";
 
 const Home = lazy(() => import("./pages/home/Home"));
 const ProductPage = lazy(() => import("./pages/productPage/ProductPage"));
@@ -20,6 +21,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <MouseBounce />
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route path={"/"} element={<Home />} />

@@ -11,7 +11,7 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 import { navItems } from "../../data/navItems.js";
 import Logo from "../Logo.jsx";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [animationParent] = useAutoAnimate();
@@ -49,28 +49,28 @@ export default function Navbar() {
         {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
         <div className="hidden md:flex items-center gap-7 transition-all">
           {navItems.map((d, i) => (
-            <Link
+            <div
               key={i}
-              to={d.link ?? "#"}
+              
               className="relative group transition-all"
             >
-              <p className="flex cursor-pointer gap-1 items-center group-hover:text-black">
+              <NavLink to={d.link ?? "#"} className="flex cursor-pointer gap-1 items-center group-hover:text-black">
                 <span className="text-xl font-bold py-6 px-2 hover:text-primaryColor transition-all duration-500">
                   {d.label}
                 </span>
                 {d.children && (
                   <IoIosArrowDown className=" rotate-180  transition-all group-hover:rotate-0" />
                 )}
-              </p>
+              </NavLink>
 
               {/* dropdown */}
               {d.children && (
                 <div className="z-10 hidden group-hover:flex absolute left-0 top-[100%] w-auto flex-col gap-1   rounded-lg rounded-tl-none rounded-tr-none bg-white py-3 shadow-md  transition-all">
                   {d.children.map((ch, i) => (
-                    <Link
+                    <NavLink
                       key={i}
                       to={ch.link ?? "#"}
-                      className="text-xl flex cursor-pointer items-center py-1 pl-2 pr-8 hover:bg-primaryColor hover:text-white"
+                      className={({ isActive }) =>`text-xl flex cursor-pointer items-center py-1 pl-2 pr-8 hover:bg-primaryColor ${isActive ? "bg-primaryColor text-white" : ""} hover:text-white`}
                     >
                       {/* image */}
                       {ch.iconImage && (
@@ -80,11 +80,11 @@ export default function Navbar() {
                       <span className="whitespace-nowrap pl-3 ">
                         {ch.label}
                       </span>
-                    </Link>
+                    </NavLink>
                   ))}
                 </div>
               )}
-            </Link>
+            </div>
           ))}
         </div>
         {/* navitems */}

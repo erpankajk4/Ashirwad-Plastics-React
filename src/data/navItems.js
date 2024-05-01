@@ -35,7 +35,7 @@ export const navItems = [
       },
       {
         label: "Flip-Off Seal",
-        link: "/products/flip-top-caps",
+        link: "/products/flip-off-seal",
       },
       {
         label: "Dispenser Pumps",

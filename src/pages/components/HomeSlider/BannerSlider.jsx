@@ -119,7 +119,7 @@ export default function BannerSlider() {
                 </p>
                 <button className="hvr-sweep-to-right flex items-center font-bold text-white transition-all bg-primaryColor ">
                   <Link
-                    className="flex justify-center items-center p-4 bg-white text-primaryColor"
+                    className="flex justify-center items-center p-4 bg-white text-primaryColor hover:bg-black hover:text-white transition-all duration-300"
                     to={"/about-us"}
                   >
                     <FaArrowRightLong />

@@ -22,22 +22,22 @@ function Footer() {
         <h4 className="text-2xl font-bold mb-5">Quick Links</h4>
         <ul>
           <Link to="/">
-            <li>Home</li>
+            <li className="hover:text-primaryColor hover:underline">Home</li>
           </Link>
           <Link to="/about-us">
-            <li>About Us</li>
+            <li className="hover:text-primaryColor hover:underline">About Us</li>
           </Link>
           <Link to="/market-sectors/cosmetic-industry">
-            <li>Cosmetic Industry</li>
+            <li className="hover:text-primaryColor hover:underline">Cosmetic Industry</li>
           </Link>
           <Link to="/market-sectors/pharmaceutical-industry">
-            <li>Pharmaceutical Industry</li>
+            <li className="hover:text-primaryColor hover:underline">Pharmaceutical Industry</li>
           </Link>
           <Link to="/market-sectors/home-care-industry">
-            <li>Home Care Industry</li>
+            <li className="hover:text-primaryColor hover:underline">Home Care Industry</li>
           </Link>
           <Link to="/contact-us">
-            <li>Contact Us</li>
+            <li className="hover:text-primaryColor hover:underline">Contact Us</li>
           </Link>
         </ul>
       </div>
@@ -45,38 +45,38 @@ function Footer() {
         <h4 className="text-2xl font-bold mb-5">Explore Now</h4>
         <ul>
           <Link to="/manufacturing-capabilities">
-            <li>Manufacturing Capabilities</li>
+            <li className="hover:text-primaryColor hover:underline">Manufacturing Capabilities</li>
           </Link>
           <Link to="/sustainability">
-            <li>Sustainability</li>
+            <li className="hover:text-primaryColor hover:underline">Sustainability</li>
           </Link>
           <Link to="/quality">
-            <li>Quality</li>
+            <li className="hover:text-primaryColor hover:underline">Quality</li>
           </Link>
           <Link to="#">
-            <li>Privacy Policy</li>
+            <li className="hover:text-primaryColor hover:underline">Privacy Policy</li>
           </Link>
           <Link to="#">
-            <li>Terms and Condition</li>
+            <li className="hover:text-primaryColor hover:underline">Terms and Condition</li>
           </Link>
         </ul>
       </div>
       <div className="flex-1">
-        <h4 className="text-2xl font-bold mb-5">Contact Us</h4>
+        <h4 className="text-2xl font-bold mb-5 ">Contact Us</h4>
         <ul>
-          <p className="flex items-center gap-4 mb-4">
+          <p className="flex items-center gap-4 mb-4 hover:text-primaryColor hover:underline">
             <FaPhoneAlt className="text-grey" />
             <Link to="tel:+919569461234">+91-9569461234</Link>
           </p>
-          <p className="flex items-center gap-4 mb-4">
+          <p className="flex items-center gap-4 mb-4 hover:text-primaryColor hover:underline">
             <IoMail className="text-grey" />
             <Link to="mailto:info@ashirwadplastics.com">info@ashirwadplastics.com</Link>
           </p>
-          <p className="flex items-center gap-4 mb-4">
+          <p className="flex items-center gap-4 mb-4 hover:text-primaryColor hover:underline">
             <FaLocationDot className="text-grey" />
             <Link to="#">Khasra No 06 Solan, Himachal Pradesh</Link>
           </p>
-          <p className="flex items-center gap-4 mb-4">
+          <p className="flex items-center gap-4 mb-4 hover:text-primaryColor hover:underline">
             <TbWorldWww className="text-grey" />
             <Link to="https://www.ashirwadplastics.com">www.ashirwadplastics.com</Link>
           </p>

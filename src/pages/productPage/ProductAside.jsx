@@ -29,7 +29,7 @@ export default function ProductAside({ selectedProduct }) {
       </div>
       <div className="bg-primaryColor text-white">
         <div className="p-5 flex flex-col gap-y-3">
-          <h5 className="text-2xl font-bold">LET’S START WORK TOGETHER</h5>
+          <h5 className="text-3xl font-bold text-center">LET’S START WORK TOGETHER</h5>
           <p>
             Give us a chance to become your most admired supply chain partner.
           </p>
@@ -51,7 +51,7 @@ export default function ProductAside({ selectedProduct }) {
           </ul>
         </div>
         <Link to={"#"}>
-          <button className="w-full p-5 bg-black text-white font-bold">
+          <button className="hover:underline w-full p-5 bg-black text-white font-bold">
             CONTACT US NOW
           </button>
         </Link>

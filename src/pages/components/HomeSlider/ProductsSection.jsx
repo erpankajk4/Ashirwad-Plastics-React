@@ -57,7 +57,7 @@ function ProductsSection({ category }) {
             slidesPerView: 4,
           },
         }}
-        className="w-full mt-10 px-1 transition-all duration-500"
+        className="w-full mt-10 transition-all duration-500"
       >
         {homeProducts
           .filter((product) => product?.category.includes(category))

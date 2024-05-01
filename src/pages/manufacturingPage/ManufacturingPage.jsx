@@ -12,7 +12,8 @@ export default function ManufacturingPage() {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
+        title="Ashirwad Plastics"
+        titleTemplate="Manufacturing Capabilities"
         description="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
       />
       <LayoutOne>

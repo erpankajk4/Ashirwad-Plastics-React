@@ -12,7 +12,8 @@ export default function ResearchDevelopmentPage() {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
+        title="Ashirwad Plastics"
+        titleTemplate="Research & Development"
         description="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
       />
       <LayoutOne>

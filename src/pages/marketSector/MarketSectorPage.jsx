@@ -17,7 +17,8 @@ export default function Sustainability() {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
+        title="Ashirwad Plastics"
+        titleTemplate="Market Sectors"
         description="Ashirwad Plastics – Liquid Dispensing and Packaging Solutions"
       />
       <LayoutOne>

@@ -39,10 +39,10 @@ function Section2() {
         </motion.p>
         <motion.button
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="hvr-sweep-to-right flex items-center font-bold text-white transition-all bg-primaryColor "
+          className="flex items-center font-bold text-white transition-all bg-primaryColor "
         >
           <Link
-            className="flex justify-center items-center p-4"
+            className=" hvr-sweep-to-right flex justify-center items-center p-4"
             to={"/about-us"}
           >
             <p className="font-bold mr-3">READ MORE ABOUT US</p>
